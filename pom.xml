@@ -17,6 +17,7 @@
         <http.client.version>5.4</http.client.version>
         <lombok.version>1.18.34</lombok.version>
         <everit.version>1.14.4</everit.version>
+        <jaxb.version>4.0.2</jaxb.version>
     </properties>
 
 
@@ -52,6 +53,20 @@
             <artifactId>everit-json-schema</artifactId>
             <version>${everit.version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>jakarta.xml.bind</groupId>
+            <artifactId>jakarta.xml.bind-api</artifactId>
+            <version>${jaxb.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.glassfish.jaxb</groupId>
+            <artifactId>jaxb-runtime</artifactId>
+            <version>${jaxb.version}</version>
+        </dependency>
+
+
 
     </dependencies>
 
